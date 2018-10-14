@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 
     'chismes'
 ]
@@ -52,7 +53,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'chismesBackend.urls'
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
